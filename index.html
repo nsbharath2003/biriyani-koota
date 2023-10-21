@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Biriyani Koota</title>
+</head>
+
+<body>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<a href="cart.html"></a>
+  <div class="container">
+
+    <header>
+      <nav id="navbar">
+        <div class="logo"><span>Biriyani Koota</span></div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#order"><button class="btn100"  onclick="viewCart()">View Cart</button></a></li>
+        </ul>
+      </nav>
+      <div id="mobile">
+        <div class="logo1"><span>Biriyani Koota<br>ಸ್ವಾಗತ</span></div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#viewcart">View Cart</a></li>
+        </ul>
+      </div>
+
+      <div class="overlay">
+        <section id="home">
+          <h1 class="h-primary">Welcome to Biriyani Koota</h1>
+          <br>
+          <p>We specialize in serving authentic biryani flavors from across India, ensuring an exquisite culinary journey for our customers. </p>
+        
+          <button id="btn1">Order Now</button>
+        </section>
+      </div>
+    </header>
+
+
+
+    <div id="menu">
+      <div class="heading">
+        <h1>Menu</h1>
+        <h3>Today's Special</h3>
+      </div>
+      <div class="card">
+        <img
+          src="R.png">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Hyderabadi Biriyani</h5>
+            <h5 class="price"> ₹150</h5>
+          </div>
+          <p>Hyderabad Biryani is a quintessential Indian rice dish renowned for its rich, aromatic flavors. Fragrant basmati rice is layered with succulent marinated meat, typically chicken or mutton, with a blend of exotic spices.</p>
+          <button class="btn" onclick="addToCart('Hyderabadi Biryani', 150)">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="unnamed.png" width="300" height="400">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Hosakote Biriyani</h5>
+            <h5 class="price">₹ 160 </h5>
+          </div>
+          <p>Hoskote Biryani is a delightful blend of traditional biryani and Karnataka's culinary heritage. Fragrant basmati rice is layered with marinated meat, infused with aromatic spices like cloves, cinnamon, and cardamom.</p>
+          <button class="btn" onclick="addToCart('Hosakote Biryani', 160)">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="OIP.jpeg"
+          alt="">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Donne Biriyani</h5>
+            <h5 class="price"> ₹120 </h5>
+          </div>
+          <p>Donne Biryani is a culinary masterpiece that fuses the essence of traditional biryani with a modern twist.This aromatic delight tantalizes taste buds with its fragrant spices and perfectly cooked rice</p>
+         <button class="btn" onclick="addToCart('Donne Biryani', 120)">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="ambur.jpeg"
+          alt="">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Ambur Dum Biriyani</h5>
+            <h5 class="price"> ₹100</h5>
+          </div>
+          <p>Ambur Biryani, hailing from the southern town of Ambur in Tamil Nadu, is a delectable South Indian rice dish renowned for its unique blend of flavors.</p>
+         <button class="btn" onclick="addToCart('Ambur Dum Biryani', 100)">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="kas.jpeg"
+          alt="">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Kashmiri Biriyani</h5>
+            <h5 class="price"> ₹140 </h5>
+          </div>
+          <p>Kashmiri Biryani is a fragrant and flavorful rice dish originating from the picturesque region of Kashmir. Known for its rich and aromatic spices.</p>
+          <button class="btn" onclick="addToCart('Kashmiri Biryani', 140)">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="kalmi.png"
+          alt="">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Kalmi Biriyani</h5>
+            <h5 class="price"> ₹160 </h5>
+          </div>
+          <p>Kalmi Biryani is a delectable Indian dish known for its unique and mouthwatering flavors. It features tender chicken drumsticks.</p>
+          <button class="btn" onclick="addToCart('Kalmi Biryani', 160)">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="about">
+      <h1 class="title">About us</h1>
+      <div class="about_row">
+        <div class="about_column">
+          <p>Biryani Koota is not just a restaurant; it's a culinary journey through the heart of India's most beloved dish. Our passionate chefs bring together a symphony of spices and the finest ingredients to create biryanis that are nothing short of extraordinary. With a menu inspired by diverse regional flavors, from the fragrant Lucknawi biryani to the fiery Andhra-style concoctions, each bite is an adventure for your taste buds. Our commitment to quality, hospitality, and a warm, inviting ambiance makes Biryani Koota the perfect destination for those seeking an authentic and unforgettable biryani experience. Join us and savor the magic of biryani, one delectable grain at a time.</p>
+          <button id="btn1">learn more</button>
+        </div>
+        <div class="about_column">
+          <img src="https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg?w=2000
+        " alt="">
+        </div>
+      </div>
+    </div>
+    <div id="order">
+      <h1 class="title1">order</h1>
+      <form action="">
+        <input type="text" class="inp_box" placeholder="Name">
+        <input type="email" class="inp_box" placeholder="Email">
+        <textarea type="text" class="inp_box text_area" placeholder="Adress"></textarea>
+        <button class="btn2">Order Now</button>
+    </div>
+    </form>
+
+  </div>
+  <footer>
+    <div>
+  
+      <p>
+        All trademarks are the property of owners
+All rights reserved © 2023 Biriyani Koota (India) Ltd.
+      </p>
+    </div>
+  </footer>
+  </div>
+<script>
+  // Initialize an empty cart array
+  let cart = [];
+
+  // Function to add an item to the cart
+  function addToCart(itemName, itemPrice) {
+    const item = { name: itemName, price: itemPrice };
+    cart.push(item);
+    alert(`${itemName} added to cart.`);
+  }
+
+  // Function to view the cart
+  function viewCart() {
+    // Store the cart data in local storage before opening the cart page
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Open the cart.html page
+    window.open('cart.html', '_blank');
+  }
+</script>
+
+
+</body>
+
+</html>
